@@ -1,0 +1,62 @@
+.swal-title {
+  font-family: $font-family-base;
+  font-weight: bold;
+  color: #32325d;
+}
+
+.swal-text {
+  font-family: $font-family-base;
+  font-size: $paragraph-font-size;
+  font-weight: $paragraph-font-weight;
+  line-height: $paragraph-line-height;
+  color: #525f7f;
+}
+
+.swal-button {
+  position: relative;
+  text-transform: $btn-text-transform;
+  will-change: transform;
+  letter-spacing: $btn-letter-spacing;
+  font-size: $input-btn-font-size;
+  &:hover {
+    @include box-shadow($btn-hover-box-shadow);
+    transform: translateY(-1px);
+    color: #fff;
+    background-color: #3d55df;
+    border-color: #324cdd;
+  }
+  &:focus {
+    outline: none;
+    color: #fff;
+    background-color: #3d55df;
+    border-color: #324cdd;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08),
+      0 0 0 0 rgba(118, 135, 232, 0.5);
+  }
+
+  &:not([disabled]):hover {
+    background-color: #3d55df;
+    border-color: #324cdd;
+  }
+
+  &:active {
+    background-color: #3d55df !important;
+    border-color: #324cdd;
+  }
+
+  &:not(:last-child) {
+    margin-right: 0.5rem;
+  }
+  font-weight: 600;
+  color: #fff;
+  background-color: #5e72e4;
+  border-color: #5e72e4;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.625rem 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: all 0.15s ease;
+}

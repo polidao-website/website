@@ -1,0 +1,13 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "sass/variables";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "sass/theme";
+@import "react/react-differences";
+
+.whats-button {
+  background-color: #25d366;
+  border-radius: 100px;
+  padding: 0.8rem 0.8rem 0.9rem 0.9rem;
+  transition: all 0.15s ease;
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+}
