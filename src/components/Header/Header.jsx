@@ -27,7 +27,7 @@ export default function Header() {
   useEffect(() => {
     const headroom = new Headroom(document.getElementById('navbar-main'))
     headroom.init()
-    console.log(document.getElementsByClassName('headroom-pinned'))
+    // console.log(document.getElementsByClassName('headroom-pinned'))
   })
 
   function onExiting() {
@@ -63,10 +63,7 @@ export default function Header() {
               <Row>
                 <Col className="collapse-brand" xs="6">
                   <Link to="/">
-                    <img
-                      alt="..."
-                      src={require('../../assets/img/brand/argon-react.png')}
-                    />
+                    <Logo size={100} />
                   </Link>
                 </Col>
                 <Col className="collapse-close" xs="6">

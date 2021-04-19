@@ -19,7 +19,11 @@ export default function Hero({ scrollToForm }) {
               }}
             >
               <h1 className="display-3 text-white">
-                Há mais de 20 anos
+                Há mais de
+                {' '}
+                {new Date().getFullYear() - 1989}
+                {' '}
+                anos
                 {' '}
                 <span>prestando serviço de qualidade</span>
               </h1>

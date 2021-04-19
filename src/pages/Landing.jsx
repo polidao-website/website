@@ -1,7 +1,6 @@
 import { useRef } from 'react'
-
 import {
-  TripleCards,
+  // TripleCards,
   // Download,
   Form,
   Hero,
@@ -13,6 +12,7 @@ import {
   SectionSeven,
   SectionEight,
 } from '../components'
+import Carousel from '../components/Cards/Carousel'
 
 export default function Landing() {
   const form = useRef(null)
@@ -25,7 +25,8 @@ export default function Landing() {
         <Hero scrollToForm={scrollToForm} />
         {/* 1st Hero Variation */}
       </div>
-      <TripleCards />
+      {/* <TripleCards /> */}
+      <Carousel />
       <SectionThree />
       <SectionFour />
       <SectionFive />
