@@ -162,6 +162,26 @@ export default function Header() {
               <UncontrolledDropdown nav>
                 <DropdownToggle nav>
                   <i className="ni ni-collection d-lg-none mr-1" />
+                  <span className="nav-link-inner--text">Endereços</span>
+                </DropdownToggle>
+                <DropdownMenu>
+                  <h5 style={{ margin: '1rem' }}>Santo Amaro</h5>
+                  <a href="https://goo.gl/maps/GEUVDEKHfj1tZ1C87" target="_blank" rel="noreferrer">
+                    <DropdownItem>
+                      Av. Washington Luiz, 417
+                    </DropdownItem>
+                  </a>
+                  <h5 style={{ margin: '1rem' }}>Sabará</h5>
+                  <a href="https://goo.gl/maps/uN7EM2ZQvk2dnHMw9" target="_blank" rel="noreferrer">
+                    <DropdownItem>
+                      Rua Monsenhor Alfredo Pereira Sampaio, 40
+                    </DropdownItem>
+                  </a>
+                </DropdownMenu>
+              </UncontrolledDropdown>
+              <UncontrolledDropdown nav>
+                <DropdownToggle nav>
+                  <i className="ni ni-collection d-lg-none mr-1" />
                   <span className="nav-link-inner--text">Telefones</span>
                 </DropdownToggle>
                 <DropdownMenu>

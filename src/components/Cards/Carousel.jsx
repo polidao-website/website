@@ -150,7 +150,7 @@ export default function SimpleSlider() {
   React.useEffect(() => {
     setSlideSize(window.innerWidth > 768 ? 3 : 1)
   }, [])
-  
+
   const settings = {
     dots: true,
     infinite: true,
